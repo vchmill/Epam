@@ -1,0 +1,3 @@
+select name, class from ships
+where name=class
+order by name
