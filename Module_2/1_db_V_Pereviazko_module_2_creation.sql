@@ -34,3 +34,4 @@ LOG ON
     MAXSIZE=10MB,
     FILEGROWTH=1MB);
 	GO
+	
