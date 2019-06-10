@@ -145,7 +145,7 @@ group by Supplierid
 having sum(quantity) > (select avg(quantity) from Supplies )  
 )
 */
-SELECT * FROM Supplies
+SELECT * FROM Suppliers
 
 ---[14]---------------------------------
 SELECT DISTINCT supplierid,name 
