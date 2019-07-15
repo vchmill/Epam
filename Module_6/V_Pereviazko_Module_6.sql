@@ -126,7 +126,7 @@ WHERE RowNum between 10 and 15
 -------[Task6]-----------------------
 
 SELECT * FROM (SELECT supplierid, detailid, productid, quantity,
-AVG(quantity) over() AS avg_quantity  
+AVG(quantity) over() AS avg_qty  
 FROM supplies) AS C
-WHERE quantity < avg_quantity			
+WHERE quantity < avg_qty			
 
